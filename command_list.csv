@@ -1,0 +1,71 @@
+    1  clear
+    2  $ ^[[200~git config --global user.name "Anatolii Holovin
+    3  [200~git config --global user.name "Anatolii Holovin
+    4  git config --global user.name "Anatolii Holovin"
+    5  git config --global user.email "4ng093@gmail.com"
+    6  git clone https://github.com/4ng093/HW_10
+    7  cd Documents/
+    8  ls
+    9  cd test_repo_1/
+   10  git clone https://github.com/4ng093/HW_10.git
+   11  git status
+   12  ls
+   13  cd HW_10/
+   14  git status
+   15  touch new.txt
+   16  ls
+   17  git status
+   18  ls
+   19  mv new.txt text_ignore.txt
+   20  ls
+   21  git status
+   22  echo "text_ignore.txt" >> .gitignore
+   23  git status
+   24  git add.
+   25  git add
+   26  git add .
+   27  git status
+   28  commit
+   29  git commit
+   30  cd Documents/
+   31  cd test_repo_1/
+   32  cd HW_10/
+   33  git status
+   34  commit
+   35  git commit
+   36  cd Documents/
+   37  cd test_repo_1/
+   38  cd HW_10/
+   39  git status 
+   40  git commit -m "File ignored"
+   41  git status
+   42  git log
+   43  touch main_test.txt
+   44  ls
+   45  git add
+   46  git add .
+   47  git commit -m "New file created"
+   48  git branch
+   49  git checkout -b develop
+   50  git branch
+   51  git status 
+   52  git add
+   53  git add .
+   54  git status 
+   55  git branch
+   56  touch develop_test.txt
+   57  git add
+   58  git add .
+   59  git commit -m "develop file created"
+   60  echo "text_ignore.txt" >> develop_test.txt 
+   61  git status
+   62  git add
+   63  git add .
+   64  git status
+   65  git commit -m "Update develop file"
+   66  git checkout 
+   67  git checkout main
+   68  git branch 
+   69  git merge develop 
+   70  git log
+   71  history > command_list.csv
